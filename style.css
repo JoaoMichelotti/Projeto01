@@ -1,0 +1,157 @@
+.navbar-brand {
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+    
+}
+
+nav {
+   background-color: #2ecc71; 
+   transition: background-color 0.5s ease;
+}
+
+.navbar-scroll {
+    background-color: #10572e;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 1.5rem;
+}
+
+.btn {
+    color: white;
+    
+}
+
+.btn-outline-success {
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.main {
+    background-color: #2ecc71;
+    height: 43rem;
+    
+}
+
+.btn-success {
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(231, 231, 231);
+}
+
+.img-pri {
+    display: block;
+    position: absolute;
+    margin-top: 15%;
+    animation: moveUpDown 4s infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+      top: 0;
+    }
+    50% {
+      top: calc(15vh - 100px); /* Adjust the value to fit your needs */
+}
+}
+
+
+
+.botao {
+    padding: 10px;
+    border: none;
+    background: none;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+    color: #2ecc71;
+    font-size: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.botao:hover {
+    background-color: #1e864a;
+    color: white;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li {
+    padding: 10px 0 10px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.services h2 {
+    margin: 20px 0;
+    
+}
+
+.h3_services {
+    color: #10572e;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .img-pri {
+      display: none;
+    }
+
+    .principal {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;  
+        
+    }
+
+  }
+
+
+.navbar-toggler {
+    background: none;
+    border: none;
+}
+
+.carousel-item {
+    height: 350px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #10572e;
+}
+
